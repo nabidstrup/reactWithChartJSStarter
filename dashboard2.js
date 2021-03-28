@@ -1,7 +1,7 @@
-import LineChart from './lineChart'
+import LineChart from './linechart'
 import {Container, Row, Col} from 'react-bootstrap'
 import {useEffect, useState} from 'react'
-import WeatherChart from './weatherChart'
+//import WeatherChart from './weatherChart'
 import PieChart from './pieChart'
 
 export default function Dashbaord() {
