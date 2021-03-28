@@ -4,6 +4,8 @@ import {useEffect, useState} from 'react'
 //import WeatherChart from './weatherChart'
 import PieChart from './pieChart'
 
+const WEATHER_API_KEY = process.env.REACT_APP_WEATHER_API_KEY
+
 export default function Dashbaord() {
     let hoursToChart = []
     let temp = []
